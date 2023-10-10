@@ -1,6 +1,6 @@
 "use client"
 import React,{useEffect} from "react";
-import EmpTable from "../../components/EmpTable";
+import EmpTable from "@/app/components/EmpTable";
 import { useEmpStore } from "@/store/useEmpStore";
 const DataTable = () => {
   const { fetchEmpData, employees } = useEmpStore();

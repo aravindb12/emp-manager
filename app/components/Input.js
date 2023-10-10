@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Input = ({ label, id, type, onChange , defaultValue, min,  noLabel=false, isEditMode }) => {
+const Input = ({ label, id, type, onChange , defaultValue, min,  noLabel=false }) => {
 
 
   return (

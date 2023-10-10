@@ -1,9 +1,8 @@
 "use client"
 
 import React, { useState } from "react";
-import { useEmpStore } from "../../../store/useEmpStore";
+import { useEmpStore } from "@/store/useEmpStore";
 import Input from "@/app/components/Input";
-import { TextField } from "@mui/material";
 
 const EmployeeForm = () => {
   const [name, setName] = useState("");

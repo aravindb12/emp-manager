@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
-import { useEmpStore } from "../../../store/useEmpStore";
-import EmpTable from "../../components/EmpTable";
+import { useEmpStore } from "@/store/useEmpStore";
+import EmpTable from "@/app/components/EmpTable";
 
 const EditableDataTable = () => {
   const { employees } = useEmpStore();
