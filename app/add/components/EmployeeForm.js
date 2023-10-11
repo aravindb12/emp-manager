@@ -20,6 +20,9 @@ const EmployeeForm = () => {
       employee_age: age,
     };
     addEmployee(newEmployee);
+    setName('')
+    setSalary(null)
+    setAge(null)
   };
   
   return (
