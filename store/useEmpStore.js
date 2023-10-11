@@ -3,7 +3,6 @@ import { create } from "zustand";
 export const useEmpStore = create((set) => ({
   employees: null,
   fetchEmpData: async (url) => {
-    console.log(url)
     const response = await fetch(url)
     const json = await response.json()
     set({employees: json.data})
